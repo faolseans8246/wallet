@@ -1,0 +1,17 @@
+server:
+  port: 1972
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/wallet
+    username: root
+    password: faolseans8246
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+  sql:
+    init:
+      mode: never
+

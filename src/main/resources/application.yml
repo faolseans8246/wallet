@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: wallet
+
+  profiles:
+    active: dev
